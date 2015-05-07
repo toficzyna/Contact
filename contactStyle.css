@@ -3,7 +3,7 @@ contact-dir #container {
   border-radius: 9px;
   margin-top: 5%;
 }
-contact-dir #container form button {
+contact-dir #container form#contactForm button#send_email {
   margin-top: 1%;
   margin-bottom: 1%;
 }
