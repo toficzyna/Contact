@@ -1,10 +1,7 @@
 contact-dir{
 
   #container{
-    h1{}
     form{
-
-
       button{
         margin-top:1%;
         margin-bottom: 1%;
