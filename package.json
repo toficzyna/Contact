@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "nodemailer": "*",
+    "express": "~4.5.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "connect": "^3.3.5",
+    "cors": "^2.6.0",
+    "less": "^2.5.0"
+  }
+}

@@ -1,0 +1,14 @@
+
+<div id="container" class="col-sm-6 col-sm-offset-3">
+    <h1>Napisz Email!</h1>
+    <form>
+        <label>Email<input id="to" type="text"  class="form-control" placeholder="Email" ng-model="to"/></label>
+        <label>Temat<input id="subject" type="text" class="form-control"  placeholder="Temat" ng-model="subject"/></label>
+        <textarea id="content" cols="40" rows="5" placeholder="Wiadomość" ng-model="mail" class="form-control"></textarea>
+
+        <button id="send_email" class="btn btn-default" ng-click="sendMessage()" >Wyślij Email</button>
+    </form>
+
+    <div class="alert" ng-class="{'alert-success':(status===statuses.success), 'alert-danger':(status===statuses.error), 'alert-info':(status===statuses.waiting) }">{{status}}</div>
+
+</div>

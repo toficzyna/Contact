@@ -1,0 +1,9 @@
+contact-dir #container {
+  background: rgba(210, 187, 187, 0.3);
+  border-radius: 9px;
+  margin-top: 5%;
+}
+contact-dir #container form button {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
