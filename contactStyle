@@ -1,8 +1,8 @@
 contact-dir{
 
   #container{
-    form{
-      button{
+    form#contactForm{
+      button#send_email{
         margin-top:1%;
         margin-bottom: 1%;
       }
